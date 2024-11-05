@@ -79,7 +79,7 @@ hr{
     border-radius: 16px;
     padding: 8px;
     font-family: 'Inter','sans-serif';
-   
+    flex-direction: column;
 }
 
 .card img{
@@ -88,4 +88,14 @@ hr{
 }
 .card .bouton{
    margin-bottom: 0;
+}
+
+/*Flexbox*/
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.between{
+    justify-content: space-between;
 }
